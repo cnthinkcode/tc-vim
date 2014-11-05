@@ -1,6 +1,6 @@
 "作者：何健源 
 "描述：vim配置文件
-"邮箱: thinkcode @126.com
+"邮箱: thinkcode@126.com
 "参考：www.vimer.cn
 
 "判断当前操作系统类型
@@ -8,7 +8,7 @@ if(has("win32") || has("win95") || has("win64") || has("win16"))
     leg g:iswindows=1
 else
     let g:iswindows=0
-
+endif
 "关闭vi模式
 set nocompatible
 
@@ -42,5 +42,4 @@ set incsearch
 set backspace=indent,eol,start whichwrap+=<,>,[,]
 
 "字体设置
-
 
